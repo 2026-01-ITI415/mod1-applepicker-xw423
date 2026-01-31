@@ -27,11 +27,6 @@ public class ApplePicker : MonoBehaviour
 		}
 	}
 
-	// Update is called once per frame
-	void Update()
-	{
-	}
-
 	public void AppleMissed()
 	{
 		// Destroy all falling Apples
@@ -50,8 +45,6 @@ public class ApplePicker : MonoBehaviour
 
 		// restart game when game over
 		if( basketList.Count == 0 )
-		{
 			SceneManager.LoadScene( "ApplePicker" );
-		}
 	}
 }
