@@ -692,7 +692,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -5521096953736282596, guid: 30e82a9dbde9f2d5c9ddd77721b66149, type: 3}
       propertyPath: speed
-      value: 1
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: -5521096953736282596, guid: 30e82a9dbde9f2d5c9ddd77721b66149, type: 3}
       propertyPath: changeDirChance
