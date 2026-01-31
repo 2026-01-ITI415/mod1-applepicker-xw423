@@ -43,10 +43,9 @@ public class HighScore : MonoBehaviour
 	{
 		if( resetHighScoreNow )
 		{
+			resetHighScoreNow = false;
 			PlayerPrefs.SetInt("HighScore", 1000);
 			Debug.LogWarning( "PlayerPrefs HighScore reset to 1000" );
-			resetHighScoreNow = false;
 		}
-
 	}
 }
